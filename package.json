@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "jshint": "^2.13.4",
+    "prompt-sync": "^4.2.0",
+    "underscore": "^1.13.2"
+  }
+}
