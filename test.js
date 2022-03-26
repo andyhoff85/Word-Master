@@ -11,3 +11,8 @@ function getRandomVowels(vowels, number_of_vowels) {
 const vowels = ["A" , "E" , "I" , "O" , "U"];
 var number_of_vowels = Math.floor(Math.random() * 10);
 var random_vowels = getRandomVowels(x, number_of_vowels)
+
+
+const prompt = require("prompt-sync")();
+const words_guessed = prompt("What words can you make using these letters? ");
+console.log(`You entered ${words_guessed}`);
